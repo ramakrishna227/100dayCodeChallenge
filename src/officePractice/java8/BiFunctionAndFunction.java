@@ -1,4 +1,4 @@
-package java8;
+package officePractice.java8;
 
 import java.util.function.BiFunction;
 

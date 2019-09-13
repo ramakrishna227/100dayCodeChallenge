@@ -1,3 +1,4 @@
+package officePractice;
 
 public class Child extends Base{
 public static void method1() {

@@ -1,4 +1,4 @@
-package completableFuturePractice;
+package officePractice.completableFuturePractice;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;

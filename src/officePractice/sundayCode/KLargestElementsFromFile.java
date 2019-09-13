@@ -1,4 +1,4 @@
-package sundayCode;
+package officePractice.sundayCode;
 
 import java.io.BufferedReader;
 import java.io.File;

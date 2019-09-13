@@ -1,4 +1,4 @@
-package graphsAndTrees;
+package officePractice.graphsAndTrees;
 
 import java.util.LinkedList;
 

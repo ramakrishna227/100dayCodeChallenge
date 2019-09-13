@@ -1,3 +1,4 @@
+package officePractice;
 
 public class Base {
 public static void method1() {

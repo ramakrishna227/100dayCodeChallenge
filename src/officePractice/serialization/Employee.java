@@ -1,4 +1,4 @@
-package serialization;
+package officePractice.serialization;
 
 import java.io.Serializable;
 

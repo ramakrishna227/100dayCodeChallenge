@@ -1,4 +1,4 @@
-package mathUtils;
+package officePractice.mathUtils;
 
 import java.text.DecimalFormat;
 

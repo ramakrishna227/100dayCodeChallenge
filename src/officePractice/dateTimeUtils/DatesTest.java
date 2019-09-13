@@ -1,4 +1,4 @@
-package dateTimeUtils;
+package officePractice.dateTimeUtils;
 
 public class DatesTest {
 

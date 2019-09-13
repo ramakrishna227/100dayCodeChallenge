@@ -1,4 +1,4 @@
-package observerpractice;
+package officePractice.observerpractice;
 
 public class WeatherDisplay implements Observer {
 

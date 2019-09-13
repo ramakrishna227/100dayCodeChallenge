@@ -1,3 +1,4 @@
+package officePractice;
 import java.util.Scanner;
 
 public class ScannerExample2 {

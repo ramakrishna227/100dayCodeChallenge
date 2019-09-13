@@ -1,4 +1,4 @@
-package reflectionAndGCCodeKata;
+package officePractice.reflectionAndGCCodeKata;
 
 /**
  * 

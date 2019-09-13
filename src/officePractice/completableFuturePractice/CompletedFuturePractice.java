@@ -1,4 +1,4 @@
-package completableFuturePractice;
+package officePractice.completableFuturePractice;
 
 //import static org.junit.Assert.assertTrue;
 

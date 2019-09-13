@@ -1,4 +1,4 @@
-package oracleQueries;
+package officePractice.oracleQueries;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

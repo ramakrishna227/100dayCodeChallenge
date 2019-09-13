@@ -1,4 +1,4 @@
-package dateTimeUtils;
+package officePractice.dateTimeUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

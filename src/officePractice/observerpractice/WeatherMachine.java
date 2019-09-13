@@ -1,4 +1,4 @@
-package observerpractice;
+package officePractice.observerpractice;
 
 import java.util.Random;
 

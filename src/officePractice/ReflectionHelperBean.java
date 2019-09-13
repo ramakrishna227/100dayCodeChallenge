@@ -1,3 +1,4 @@
+package officePractice;
 
 public class ReflectionHelperBean {
 private int i = 100;
