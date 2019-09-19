@@ -9,9 +9,9 @@ import java.nio.file.Paths;
 public class CopyFile {
 public static void main(String[] args) throws IOException {
   for(int i=0; i<100; i++) {
-  BufferedWriter br=new BufferedWriter(new FileWriter(new File("C:\\Users\\rkurisetti\\Desktop\\test\\BS20190904091627.log"), true));
+  BufferedWriter br=new BufferedWriter(new FileWriter(new File("C:\\Portware\\data\\logs\\server\\BS20190919031109.log"), true));
   
-  Files.lines(Paths.get("C:\\Users\\rkurisetti\\Desktop\\Work\\$Tickets$\\$$2019_02\\AS20190520030707.log")).forEach(line->{
+  Files.lines(Paths.get("C:\\\\Portware\\\\data\\\\logs\\\\server\\\\BS20190918052805.log")).forEach(line->{
     try {
       br.write(line);
     } catch (IOException e) {
