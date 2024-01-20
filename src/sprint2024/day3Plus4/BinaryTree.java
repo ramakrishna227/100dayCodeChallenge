@@ -30,20 +30,25 @@ public class BinaryTree {
             printCurrentLevel(root.right, level - 1);
         }
     }
-    void printLevelOrder(){
-        int h=height(root);
-        for(int i=1; i<=h; i++)
+
+    /**
+     * Level order or Breadth first search(BFS)
+     */
+    void printLevelOrder() {
+        int h = height(root);
+        for (int i = 1; i <= h; i++)
             printCurrentLevel(root, i);
     }
 
-    public static void main(String[] args){
-        BinaryTree tree=new BinaryTree();
-        tree.root=new Node(1);
-        tree.root.left=new Node(2);
-        tree.root.right=new Node(3);
-        tree.root.left.left=new Node(4);
-        tree.root.left.right=new Node(5);
+    public static void main(String[] args) {
+        BinaryTree tree = new BinaryTree();
+        tree.root = new Node(1);
+        tree.root.left = new Node(2);
+        tree.root.right = new Node(3);
+        tree.root.left.left = new Node(4);
+        tree.root.left.right = new Node(5);
 
+        //Level order or Breadth first search(BFS)
         System.out.println("level order traversal of above binary tree is ");
         tree.printLevelOrder();
     }
