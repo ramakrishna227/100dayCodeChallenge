@@ -38,7 +38,7 @@ public class DFSGraph {
         g.addEdge(2, 0);
         g.addEdge(2, 3);
         g.addEdge(3, 3);
-        System.out.println("DFS following verted 2 is ");
+        System.out.println("DFS following vertex 2 is ");
 
         boolean visited[] = new boolean[g.V];
         g.DFSUtil(2, visited);
