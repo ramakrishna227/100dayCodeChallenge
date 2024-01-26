@@ -6,6 +6,7 @@ public class StringReverse1 {
         StringReverse1.reverseUsingStringBuilder(str);
         StringReverse1.reverseUsingCharArray(str);
         StringReverse1.reverseUsingCharAt(str);
+        StringReverse1.reverseUsingStringSplit(str);
     }
 
     public static void reverseUsingStringBuilder(String str) {
@@ -26,6 +27,15 @@ public class StringReverse1 {
         String reversed = "";
         for (int i = str.length() - 1; i >= 0; i--) {
             reversed = reversed + str.charAt(i);
+        }
+        System.out.println("reverse of \"" + str + "\" is \"" + reversed + "\"");
+    }
+
+    public static void reverseUsingStringSplit(String str) {
+        String reversed = "";
+        String[] tokens = str.split("");
+        for (int i = tokens.length - 1; i >= 0; i--) {
+            reversed = reversed + tokens[i];
         }
         System.out.println("reverse of \"" + str + "\" is \"" + reversed + "\"");
     }
